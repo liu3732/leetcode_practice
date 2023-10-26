@@ -3,8 +3,11 @@ project(leetcode)
 
 include_directories(include)
 add_library(list list.c)
+add_library(bin_tree bin_tree.c)
+
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
 add_executable(383 canConstruct_383.c)
 add_executable(20 is_valid_20.c)
 add_executable(141 list hasCycle_141.c)
+add_executable(104 max_depth_104.c bin_tree)
