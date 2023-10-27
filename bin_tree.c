@@ -2,7 +2,7 @@
  * @Author: liu3732 liu3732@gmail.com
  * @Date: 2023-10-26 09:44:18
  * @LastEditors: liu3732 liu3732@gmail.com
- * @LastEditTime: 2023-10-26 16:08:13
+ * @LastEditTime: 2023-10-26 18:06:35
  * @FilePath: \leetcode_practice\bin_tree.c
  * @Description: 
  * 
@@ -28,16 +28,14 @@ struct TreeNode *AllocTreeNode(int v)
  */
 struct TreeNode *PreArrayToTree(int **p2a, unsigned int *p2num_size)
 {
-    if (*p2num_size == 0 || **p2a == NULL_NODE) {
+    if (*p2num_size == 0 || *p2a == NULL) {
         return NULL;
     }
-
-    if(*p2num_size == 1) {
-        struct TreeNode *root = AllocTreeNode(**p2a);
-        root->left = NULL;
-        root->right = NULL;
+    
+    if (**p2a == NULL_NODE) {
         *p2num_size--;
-        return root;
+        *p2a += 1;
+        return NULL;
     }
 
     struct TreeNode *root = AllocTreeNode(**p2a);

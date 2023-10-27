@@ -2,7 +2,7 @@
  * @Author: liu3732 liu3732@gmail.com
  * @Date: 2023-10-26 09:42:55
  * @LastEditors: liu3732 liu3732@gmail.com
- * @LastEditTime: 2023-10-26 16:05:03
+ * @LastEditTime: 2023-10-26 17:39:47
  * @FilePath: \leetcode_practice\max_depth_104.c
  * @Description: 
  * 
@@ -11,6 +11,7 @@
 #include <bin_tree.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <stdio.h>
 
 static inline int max_int(int a, int b)
 {
