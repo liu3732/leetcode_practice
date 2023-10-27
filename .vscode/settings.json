@@ -2,7 +2,8 @@
     "files.associations": {
         "bin_tree.h": "c",
         "stdlib.h": "c",
-        "queue.h": "c"
+        "queue.h": "c",
+        "cstdlib": "c"
     },
     // 头部注释
     "fileheader.customMade": {
