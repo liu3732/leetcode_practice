@@ -20,6 +20,7 @@ struct queue {
     uint32_t max_len;
     uint32_t head;
     uint32_t tail;
+    uint32_t len;
 };
 
 struct queue *CreateQueue(uint32_t max_len);
@@ -27,5 +28,6 @@ bool IsEmpty(struct queue *q_head);
 bool EnQueue(struct queue *q_head, QUEUE_TYPE v);
 bool PopQueue(struct queue *q_head, QUEUE_TYPE *out);
 void FreeQueue(struct queue *q_head);
+uint32_t GetLen(struct queue *q_head);
 
 #endif

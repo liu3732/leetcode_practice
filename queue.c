@@ -2,7 +2,7 @@
  * @Author: liu3732 liu3732@gmail.com
  * @Date: 2023-10-26 16:40:57
  * @LastEditors: liu3732 liu3732@gmail.com
- * @LastEditTime: 2023-10-27 09:38:35
+ * @LastEditTime: 2023-11-09 15:30:52
  * @FilePath: \leetcode_practice\queue.c
  * @Description: 
  * 
@@ -20,6 +20,7 @@ struct queue *CreateQueue(uint32_t max_len)
     ret->max_len = max_len;
     ret->tail = 0;
     ret->head = 0;
+    ret->len = 0;
     return ret;
 }
 
@@ -49,6 +50,7 @@ bool EnQueue(struct queue *q_head, QUEUE_TYPE v)
 
     q_head->a[q_head->tail] = v;
     q_head->tail = GetNextQueuePtr(q_head->max_len, q_head->tail);
+    q_head->len++;
     return true;
 }
 
@@ -59,10 +61,17 @@ bool PopQueue(struct queue *q_head, QUEUE_TYPE *out)
     }
     *out = q_head->a[q_head->head];
     q_head->head = GetNextQueuePtr(q_head->max_len, q_head->head);
+    q_head->len--;
     return true;
 }
 
 void FreeQueue(struct queue *q_head)
 {
     free(q_head->a);
+    free(q_head);
+}
+
+uint32_t GetLen(struct queue *q_head)
+{
+    return q_head->len;
 }
