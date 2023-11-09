@@ -1,8 +1,8 @@
 /*
  * @Author: liuxiaoxiang liu3732@gmail.com
  * @Date: 2023-11-02 23:04:10
- * @LastEditors: liuxiaoxiang liu3732@gmail.com
- * @LastEditTime: 2023-11-07 20:55:57
+ * @LastEditors: liu3732 liu3732@gmail.com
+ * @LastEditTime: 2023-11-09 16:58:40
  * @FilePath: \leetcode_practice\solve_130.c
  * @Description: 
  * 
@@ -105,6 +105,6 @@ int main()
             input[m][k] = g_board[m][k];
         }
     }
-    solve(input, , &col);
+    solve(input, row, &col);
     return 0;
 }
