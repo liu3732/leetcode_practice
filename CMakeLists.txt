@@ -2,20 +2,27 @@ cmake_minimum_required(VERSION 3.5)
 project(leetcode)
 
 include_directories(include)
-add_library(list list.c)
-add_library(bin_tree bin_tree.c)
-add_library(queue queue.c)
+
+add_library(list lib/list.c)
+add_library(bin_tree lib/bin_tree.c)
+add_library(queue lib/queue.c)
+
+link_libraries(list bin_tree queue)
+
+# bin tree related
+add_executable(104 tree/max_depth_104.c)
+add_executable(199 tree/rightSideView_199.c)
+add_executable(530 tree/getMiniDifference_530.c)
+add_executable(101 tree/isSymmetric_101.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
 add_executable(383 canConstruct_383.c)
 add_executable(20 is_valid_20.c)
-add_executable(141 list hasCycle_141.c)
-add_executable(104 max_depth_104.c bin_tree)
-add_executable(199 rightSideView_199.c queue bin_tree)
-add_executable(530 getMiniDifference_530.c bin_tree)
+add_executable(141 hasCycle_141.c)
+
 add_executable(130 solve_130.c)
-add_executable(909 snake_ladder_909.c queue)
-add_executable(445 addTwoNumbers_445.c list)
-add_executable(2 addTwoNumbers_2.c list)
+add_executable(909 snake_ladder_909.c)
+add_executable(445 addTwoNumbers_445.c)
+add_executable(2 addTwoNumbers_2.c)
 add_executable(matrix_test matrix_test.c)
