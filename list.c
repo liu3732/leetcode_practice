@@ -49,3 +49,20 @@ struct ListNode *GetXthNode(struct ListNode *listNode, int xth)
     }
     return NULL;
 }
+
+void InsertListTail(struct ListNode **listHead, struct ListNode *new)
+{
+    if (*listHead == NULL) {
+        *listHead = new;
+        new->next = NULL;
+        return;
+    }
+
+    struct ListNode *prev = *listHead;
+
+    while (prev->next != NULL) {
+        prev = prev->next;
+    }
+    prev->next = new;
+    new->next = NULL;
+}
