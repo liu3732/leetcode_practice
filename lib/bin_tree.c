@@ -1,8 +1,8 @@
 /*
  * @Author: liu3732 liu3732@gmail.com
  * @Date: 2023-10-26 09:44:18
- * @LastEditors: liu3732 liu3732@gmail.com
- * @LastEditTime: 2023-11-10 16:00:11
+ * @LastEditors: liuxiaoxiang liu3732@gmail.com
+ * @LastEditTime: 2023-11-11 09:26:33
  * @FilePath: \leetcode_practice\lib\bin_tree.c
  * @Description: 
  * 
@@ -140,4 +140,13 @@ struct TreeNode *LayerArrayToTree(int **p2a, unsigned int *num_size)
         len = GetQueueLen(&q_head);
     }
     return root;
+}
+
+struct TreeNode* MallocTreeNode(int v)
+{
+    struct TreeNode *rt = (struct TreeNode *)malloc(sizeof(struct TreeNode));
+    rt->val = v;
+    rt->left = NULL;
+    rt->right = NULL;
+    return rt;
 }
