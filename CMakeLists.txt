@@ -15,6 +15,7 @@ add_executable(199 tree/rightSideView_199.c)
 add_executable(530 tree/getMiniDifference_530.c)
 add_executable(101 tree/isSymmetric_101.c)
 add_executable(105 tree/buildTree_105.c)
+add_executable(106 tree/buildTree_106.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
