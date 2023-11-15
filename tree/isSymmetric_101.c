@@ -52,12 +52,8 @@ int a[] = {1,2,2,3,4,4,3};
 int main()
 {
     int len = sizeof(a)/sizeof(int);
-    int *p = (int *)malloc(sizeof(a));
-    for (int i = 0; i < len; i++) {
-        p[i] = a[i];
-    }
 
-    struct TreeNode* root = LayerArrayToTree(&p, &len);
+    struct TreeNode* root = LayerArrayToTree(a, len);
     assert(isSymmetric(root) == true);
     printf("the test has been passed.\n");
 }

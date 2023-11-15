@@ -11,6 +11,6 @@ struct TreeNode {
 
 struct TreeNode *PreArrayToTree(int **p2a, unsigned int *p2num_size);
 struct TreeNode *PostArrayToTree(int **p2a, unsigned int *p2num_size);
-struct TreeNode *LayerArrayToTree(int **p2a, unsigned int *p2num_size);
+struct TreeNode *LayerArrayToTree(int *a, unsigned int num_size);
 struct TreeNode* MallocTreeNode(int v);
 #endif

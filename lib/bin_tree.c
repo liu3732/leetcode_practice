@@ -82,6 +82,11 @@ uint32_t GetQueueLen(struct t_queue *q_head)
 struct entry *MallocQueueEntry(int v)
 {
     struct entry* elem = (struct entry*)malloc(sizeof(struct entry));
+    if (v == NULL_NODE) {
+        elem->p = NULL;
+        return elem;
+    }
+    
     elem->p = (struct TreeNode *)malloc(sizeof(struct TreeNode));
     elem->p->val = v;
     elem->p->left = NULL;
@@ -95,10 +100,9 @@ struct entry *MallocQueueEntry(int v)
  * @param {unsigned int} num_size
  * @return {*}
  */
-struct TreeNode *LayerArrayToTree(int **p2a, unsigned int *num_size)
+struct TreeNode *LayerArrayToTree(int *a, unsigned int num_size)
 {
-    int *a = *p2a;
-    if (a == NULL || *num_size == 0) {
+    if (a == NULL || num_size == 0) {
         return NULL;
     }
     int i = 0;
@@ -119,7 +123,7 @@ struct TreeNode *LayerArrayToTree(int **p2a, unsigned int *num_size)
                 free(head);
                 continue;
             }
-            if(i >= *num_size) {
+            if(i >= num_size) {
                 free(head);
                 return root;
             }
@@ -127,7 +131,7 @@ struct TreeNode *LayerArrayToTree(int **p2a, unsigned int *num_size)
             head->p->left = elem->p;
             TAILQ_INSERT_HEAD(&q_head, elem, entries);
 
-            if(i >= *num_size) {
+            if(i >= num_size) {
                 free(head);
                 return root;
             }
