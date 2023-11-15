@@ -8,6 +8,7 @@ struct TreeNode {
 };
 
 #define NULL_NODE __INT32_MAX__
+#define null NULL_NODE
 
 struct TreeNode *PreArrayToTree(int **p2a, unsigned int *p2num_size);
 struct TreeNode *PostArrayToTree(int **p2a, unsigned int *p2num_size);

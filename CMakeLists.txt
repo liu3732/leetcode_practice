@@ -18,6 +18,8 @@ add_executable(105 tree/buildTree_105.c)
 add_executable(106 tree/buildTree_106.c)
 add_executable(117 tree/connect_117.c)
 add_executable(114 tree/flatten_114.c)
+add_executable(112 tree/hasPathSum_112.c)
+add_executable(129 tree/sumNumbers_129.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)

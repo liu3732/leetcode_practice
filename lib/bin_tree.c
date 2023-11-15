@@ -1,8 +1,8 @@
 /*
  * @Author: liu3732 liu3732@gmail.com
  * @Date: 2023-10-26 09:44:18
- * @LastEditors: liuxiaoxiang liu3732@gmail.com
- * @LastEditTime: 2023-11-11 09:26:33
+ * @LastEditors: liu3732 liu3732@gmail.com
+ * @LastEditTime: 2023-11-15 11:40:42
  * @FilePath: \leetcode_practice\lib\bin_tree.c
  * @Description: 
  * 
@@ -119,7 +119,7 @@ struct TreeNode *LayerArrayToTree(int *a, unsigned int num_size)
             struct entry *head = TAILQ_LAST(&q_head, t_queue);
             TAILQ_REMOVE(&q_head, head, entries);
             
-            if(head->p->val == NULL_NODE) {
+            if(head->p == NULL || head->p->val == NULL_NODE) {
                 free(head);
                 continue;
             }
