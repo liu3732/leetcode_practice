@@ -24,6 +24,7 @@ add_executable(124 tree/_maxPathSum_124.c)
 add_executable(173 tree/bSTIteratorFree_173.c)
 add_executable(222 tree/countNodes_222.c)
 add_executable(236 tree/_lowestCommonAncestor_236.c)
+add_executable(102 tree/levelOrder_102.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
