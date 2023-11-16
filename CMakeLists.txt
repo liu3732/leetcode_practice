@@ -22,6 +22,7 @@ add_executable(112 tree/hasPathSum_112.c)
 add_executable(129 tree/sumNumbers_129.c)
 add_executable(124 tree/maxPathSum_124.c)
 add_executable(173 tree/bSTIteratorFree_173.c)
+add_executable(222 tree/countNodes_222.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)

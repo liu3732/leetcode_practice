@@ -2,7 +2,7 @@
  * @Author: liu3732 liu3732@gmail.com
  * @Date: 2023-10-26 09:44:18
  * @LastEditors: liu3732 liu3732@gmail.com
- * @LastEditTime: 2023-11-15 11:40:42
+ * @LastEditTime: 2023-11-16 10:41:14
  * @FilePath: \leetcode_practice\lib\bin_tree.c
  * @Description: 
  * 
@@ -153,4 +153,15 @@ struct TreeNode* MallocTreeNode(int v)
     rt->left = NULL;
     rt->right = NULL;
     return rt;
+}
+
+void FreeTree(struct TreeNode *root)
+{
+    if (root == NULL) {
+        return;
+    }
+    
+    FreeTree(root->left);
+    FreeTree(root->right);
+    free(root);
 }
