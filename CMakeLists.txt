@@ -27,6 +27,7 @@ add_executable(236 tree/_lowestCommonAncestor_236.c)
 add_executable(102 tree/levelOrder_102.c)
 add_executable(637 tree/averageOfLevels_637.c)
 add_executable(103 tree/zigzagLevelOrder_103.c)
+add_executable(230 tree/kthSmallest_230.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
