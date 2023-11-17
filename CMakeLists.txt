@@ -30,6 +30,10 @@ add_executable(103 tree/zigzagLevelOrder_103.c)
 add_executable(230 tree/kthSmallest_230.c)
 add_executable(98 tree/isValidBST_98.c)
 
+# string & array
+add_executable(27 string_array/removeElement_27.c)
+
+
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
 add_executable(383 canConstruct_383.c)
