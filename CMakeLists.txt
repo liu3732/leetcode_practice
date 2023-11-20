@@ -35,6 +35,7 @@ add_executable(27 string_array/removeElement_27.c)
 add_executable(26 string_array/removeDuplicates_26.c)
 add_executable(80 string_array/removeDuplicates_80.c)
 add_executable(169 string_array/majorityElement_169.c)
+add_executable(189 string_array/rotate_189.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
