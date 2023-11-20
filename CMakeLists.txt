@@ -38,6 +38,7 @@ add_executable(169 string_array/majorityElement_169.c)
 add_executable(189 string_array/rotate_189.c)
 add_executable(121 string_array/maxProfit_121.c)
 add_executable(122 string_array/maxProfit_122.c)
+add_executable(55 string_array/canJump_55.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
