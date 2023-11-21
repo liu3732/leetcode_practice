@@ -42,6 +42,7 @@ add_executable(55 string_array/canJump_55.c)
 add_executable(45 string_array/jump_45.c)
 add_executable(247 string_array/hindex_247.c)
 add_executable(380 string_array/random_380.c)
+add_executable(238 string_array/productExceptSelf_238.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
