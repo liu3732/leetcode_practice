@@ -47,6 +47,8 @@ add_executable(134 string_array/_canCompleteCircuit_134.c)
 add_executable(135 string_array/_candy_135.c)
 add_executable(42 string_array/_trap_42.c)
 add_executable(13 string_array/romanToInt_13.c)
+add_executable(12 string_array/intToRoman_12.c)
+
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
