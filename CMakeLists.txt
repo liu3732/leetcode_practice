@@ -53,6 +53,7 @@ add_executable(14 string_array/longestCommonPrefix_14.c)
 add_executable(151 string_array/reverseWords_151.c)
 add_executable(6 string_array/zconvert_6.c)
 add_executable(28 string_array/strStr_28.c)
+add_executable(68 string_array/fullJustify_68.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
