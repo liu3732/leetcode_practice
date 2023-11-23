@@ -51,6 +51,7 @@ add_executable(12 string_array/intToRoman_12.c)
 add_executable(58 string_array/lengthOfLastWord_58.c)
 add_executable(14 string_array/longestCommonPrefix_14.c)
 add_executable(151 string_array/reverseWords_151.c)
+add_executable(6 string_array/zconvert_6.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
