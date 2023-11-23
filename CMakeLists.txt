@@ -57,6 +57,7 @@ add_executable(68 string_array/fullJustify_68.c)
 
 # double ptrs
 add_executable(125 double_ptrs/isPalindrome_125.c)
+add_executable(392 double_ptrs/isSubSequence_392.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
