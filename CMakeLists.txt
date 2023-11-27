@@ -60,6 +60,7 @@ add_executable(125 double_ptrs/isPalindrome_125.c)
 add_executable(392 double_ptrs/isSubSequence_392.c)
 add_executable(167 double_ptrs/twoSum_167.c)
 add_executable(11 double_ptrs/maxArea_11.c)
+add_executable(15 double_ptrs/threeSum_15.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
