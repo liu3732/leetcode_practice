@@ -64,6 +64,7 @@ add_executable(15 double_ptrs/threeSum_15.c)
 
 # slide window
 add_executable(209 slide_win/minSubArrayLen_209.c)
+add_executable(3 slide_win/lengthOfLongestSubstring_3.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
