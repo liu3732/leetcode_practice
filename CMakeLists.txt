@@ -67,6 +67,7 @@ add_executable(209 slide_win/minSubArrayLen_209.c)
 add_executable(3 slide_win/lengthOfLongestSubstring_3.c)
 add_executable(30 slide_win/findSubstring_30.c)
 add_executable(438 slide_win/findAnagrams_438.c)
+add_executable(76 slide_win/minWindow_76.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(36 is_valid_sudoku_36.c)
