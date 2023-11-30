@@ -69,8 +69,11 @@ add_executable(30 slide_win/findSubstring_30.c)
 add_executable(438 slide_win/findAnagrams_438.c)
 add_executable(76 slide_win/minWindow_76.c)
 
+# matrix
+add_executable(36 matrix/is_valid_sudoku_36.c)
+add_executable(54 matrix/spiralOrder_54.c)
+
 add_executable(228 summary_range_228.c)
-add_executable(36 is_valid_sudoku_36.c)
 add_executable(383 canConstruct_383.c)
 add_executable(20 is_valid_20.c)
 add_executable(141 hasCycle_141.c)
