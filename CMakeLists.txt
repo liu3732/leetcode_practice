@@ -74,7 +74,7 @@ add_executable(36 matrix/is_valid_sudoku_36.c)
 add_executable(54 matrix/spiralOrder_54.c)
 add_executable(48 matrix/_rotate_48.c)
 add_executable(73 matrix/setZeroes_73.c)
-
+add_executable(289 matrix/gameOfLife_289.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(383 canConstruct_383.c)
