@@ -76,8 +76,11 @@ add_executable(48 matrix/_rotate_48.c)
 add_executable(73 matrix/setZeroes_73.c)
 add_executable(289 matrix/gameOfLife_289.c)
 
+# hash
+add_executable(383 hash/canConstruct_383.c)
+add_executable(205 hash/isIsomorphic_205.c)
+
 add_executable(228 summary_range_228.c)
-add_executable(383 canConstruct_383.c)
 add_executable(20 is_valid_20.c)
 add_executable(141 hasCycle_141.c)
 
