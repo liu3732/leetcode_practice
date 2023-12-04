@@ -79,6 +79,7 @@ add_executable(289 matrix/gameOfLife_289.c)
 # hash
 add_executable(383 hash/canConstruct_383.c)
 add_executable(205 hash/isIsomorphic_205.c)
+add_executable(290 hash/wordPattern_290.c)
 
 add_executable(228 summary_range_228.c)
 add_executable(20 is_valid_20.c)
