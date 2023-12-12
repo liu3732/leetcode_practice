@@ -91,6 +91,7 @@ add_executable(128 hash/_longestConsecutive_128.c)
 add_executable(228 range/summary_range_228.c)
 add_executable(228_2 range/summaryRanges_228.c)
 add_executable(56 range/merge_56.c)
+add_executable(57 range/insert_57.c)
 
 add_executable(20 is_valid_20.c)
 add_executable(141 hasCycle_141.c)
