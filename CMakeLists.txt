@@ -94,7 +94,10 @@ add_executable(56 range/merge_56.c)
 add_executable(57 range/insert_57.c)
 add_executable(452 range/findMinArrowShots_452.c)
 
-add_executable(20 is_valid_20.c)
+#stack
+add_executable(20 stack/is_valid_20.c)
+add_executable(71 stack/simplifyPath_71.c)
+
 add_executable(141 hasCycle_141.c)
 
 add_executable(130 solve_130.c)
