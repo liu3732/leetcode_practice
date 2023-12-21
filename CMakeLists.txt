@@ -98,6 +98,7 @@ add_executable(452 range/findMinArrowShots_452.c)
 add_executable(20 stack/is_valid_20.c)
 add_executable(71 stack/simplifyPath_71.c)
 add_executable(155 stack/minStack_155.c)
+add_executable(150 stack/evalRPN_150.c)
 
 add_executable(141 hasCycle_141.c)
 
