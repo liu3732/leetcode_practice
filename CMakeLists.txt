@@ -101,10 +101,12 @@ add_executable(155 stack/minStack_155.c)
 add_executable(150 stack/evalRPN_150.c)
 add_executable(224 stack/caculate_224.c)
 
-add_executable(141 hasCycle_141.c)
+#list
+add_executable(141 list/hasCycle_141.c)
+add_executable(2 list/addTwoNumbers_2.c)
+add_executable(21 list/mergeTwoLists_21.c)
 
 add_executable(130 solve_130.c)
 add_executable(909 snake_ladder_909.c)
 add_executable(445 addTwoNumbers_445.c)
-add_executable(2 addTwoNumbers_2.c)
 add_executable(matrix_test matrix_test.c)

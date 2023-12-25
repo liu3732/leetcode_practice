@@ -66,3 +66,21 @@ void InsertListTail(struct ListNode **listHead, struct ListNode *new)
     prev->next = new;
     new->next = NULL;
 }
+
+void FreeList(struct ListNode *listHead)
+{
+    if (listHead == NULL) {
+        return;
+    }
+    struct ListNode *prev = listHead;
+    listHead = prev->next;
+
+    while (listHead != NULL) {
+        free(prev);
+        prev = listHead;
+        listHead = prev->next;
+    }
+
+    free(prev);
+    return;
+}
