@@ -108,6 +108,7 @@ add_executable(21 list/mergeTwoLists_21.c)
 add_executable(138 list/copyRandomLists_138.c)
 add_executable(92 list/reverseBetween_92.c)
 add_executable(25 list/reverseKGroup_25.c)
+add_executable(19 list/removeNth_19.c)
 
 add_executable(130 solve_130.c)
 add_executable(909 snake_ladder_909.c)
