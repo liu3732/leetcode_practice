@@ -106,6 +106,7 @@ add_executable(141 list/hasCycle_141.c)
 add_executable(2 list/addTwoNumbers_2.c)
 add_executable(21 list/mergeTwoLists_21.c)
 add_executable(138 list/copyRandomLists_138.c)
+add_executable(92 list/reverseBetween_92.c)
 
 add_executable(130 solve_130.c)
 add_executable(909 snake_ladder_909.c)
