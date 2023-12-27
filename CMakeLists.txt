@@ -114,6 +114,9 @@ add_executable(61 list/rotateRight_61.c)
 add_executable(86 list/partition_86.c)
 add_executable(146 list/LRUCache_146.c)
 
+#map
+add_executable(200 map/numIslands_200.c)
+
 add_executable(130 solve_130.c)
 add_executable(909 snake_ladder_909.c)
 add_executable(445 addTwoNumbers_445.c)
