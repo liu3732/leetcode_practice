@@ -112,6 +112,7 @@ add_executable(19 list/removeNth_19.c)
 add_executable(82 list/deleteDuplicates_82.c)
 add_executable(61 list/rotateRight_61.c)
 add_executable(86 list/partition_86.c)
+add_executable(146 list/LRUCache_146.c)
 
 add_executable(130 solve_130.c)
 add_executable(909 snake_ladder_909.c)
