@@ -6,8 +6,9 @@ include_directories(include)
 add_library(list lib/list.c)
 add_library(bin_tree lib/bin_tree.c)
 add_library(queue lib/queue.c)
+add_library(graph lib/graph.c)
 
-link_libraries(list bin_tree queue)
+link_libraries(list bin_tree queue graph)
 
 # bin tree related
 add_executable(104 tree/max_depth_104.c)
@@ -117,7 +118,7 @@ add_executable(146 list/LRUCache_146.c)
 #map
 add_executable(200 map/numIslands_200.c)
 add_executable(130 map/solve_130.c)
-
+add_executable(133 map/cloneGraph_133.c)
 
 add_executable(909 snake_ladder_909.c)
 add_executable(445 addTwoNumbers_445.c)
