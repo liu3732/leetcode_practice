@@ -119,6 +119,7 @@ add_executable(146 list/LRUCache_146.c)
 add_executable(200 map/numIslands_200.c)
 add_executable(130 map/solve_130.c)
 add_executable(133 map/cloneGraph_133.c)
+add_executable(990 map/equationPossible_990.c)
 
 add_executable(909 snake_ladder_909.c)
 add_executable(445 addTwoNumbers_445.c)
